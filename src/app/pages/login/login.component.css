@@ -1,0 +1,78 @@
+.heading{
+  background: linear-gradient(135deg,#000000,#073597);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px ;
+  color: yellow;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-sign-up-container{
+  max-width: 500px;
+  margin: 30px auto 10px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgb(0, 0, 0, 0.9);
+
+}
+
+.login-sign-up-container h2{
+  color: #318aff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+
+}
+
+.form-group input {
+  outline: none;
+  width: 100%;
+  padding: 15px 0px 10px 5px;
+  border-radius: 6px;
+  border: 1px solid #318aff;
+  color: #000000;
+}
+button{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 25px;
+  background: linear-gradient(135deg,#000000,#073597);
+  transition: 0.5s ease;
+}
+
+button:hover{
+  background: linear-gradient(135deg,#073597,#000000);
+}
+
+p{
+  margin-top: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+
+}
+
+.highlighted{
+  text-decoration: underline;
+}
+.highlighted:hover{
+  text-decoration: underline;
+  color: #318aff;
+}
