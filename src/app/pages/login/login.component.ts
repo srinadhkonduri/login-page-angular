@@ -22,6 +22,7 @@ export class LoginComponent {
   constructor(private _snackbar:MatSnackBar, private _router: Router){
 
   }
+  // the login form is used to active register and login form
 
   toggleForm(form: 'login' | 'register'){
     this.activeForm = form;
@@ -45,6 +46,7 @@ export class LoginComponent {
     this._snackbar.open("User register Successful",'Close');
   }
   loginForm(){
+    // taking input form the local storage
     const localUsers = localStorage.getItem('users');
     if (localUsers != null) {
     const users = JSON.parse(localUsers);
@@ -58,7 +60,6 @@ export class LoginComponent {
     }
     }
   }
-
 }
 
 export class registerModel {

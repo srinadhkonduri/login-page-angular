@@ -11,12 +11,13 @@ export const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    // 1 . login component
     // path is used to open in login page
     path: 'login',
     component: LoginComponent
   },
-  // this is the part for routing the content in the file login
   {
+    // 2 . layout component
     // this layout component is used when the user is logged in already in registered account then it will navigate to the layout folder
     path: '',
     component: LayoutComponent,

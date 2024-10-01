@@ -1,5 +1,7 @@
 .heading{
   background: linear-gradient(135deg,#000000,#073597);
+  /* margin-left: 12rem;
+  margin-right: 12rem; */
   padding: 10px 20px;
   display: flex;
   justify-content: center;
@@ -7,6 +9,7 @@
   border-radius: 2px ;
   color: yellow;
 }
+
 body{
   padding: 0;
   margin: 0;
